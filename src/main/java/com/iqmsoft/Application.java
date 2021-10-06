@@ -11,8 +11,8 @@ import com.iqmsoft.repository.PersonRepository;
 public class Application {
 
 	public static void main(String[] args) {
-//		SpringApplication.run(Application.class, args);
-		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+		SpringApplication.run(Application.class, args);
+//		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
 	  //  PersonRepository personRepository = context.getBean(PersonRepository.class);
 	   // personRepository.save(new Person("Hans", "Meiser"));
